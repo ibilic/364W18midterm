@@ -1,0 +1,29 @@
+<title>  {% block title %}Ilma Bilic{% endblock %} - Midterm</title>
+
+
+{% block content1 %}
+
+<form action="{{ url_for('home') }}" method="POST">
+    {{ form.name.label() }}{{ form.name() }}<br>
+    {{ form.submit() }}
+    {{ form.hidden_tag() }}
+</form>
+
+
+{% endblock %}
+
+<p>------------</p>
+<h3>Navigation</h3>
+<ul>
+    <li><a href="{{ url_for('home')}}">Enter Name</a></li>
+    <li><a href="{{ url_for('all_names')}}">All names entered in form.</a></li>
+    <li><a href="{{ url_for('tweetResponse')}}">Search Tweet</a></li>
+    <li><a href="{{ url_for('twtresult')}}">All Tweets</a></li>
+    <li><a href="{{ url_for('clean')}}">Create cleaning task</a></li>
+    <li><a href="{{ url_for('plan')}}">Show cleaning schedule</a></li>
+
+</ul>
+
+{% block footer %}
+    &copy; Copyright 2018 by <a href="http://domain.invalid/">you</a>.
+{% endblock %}

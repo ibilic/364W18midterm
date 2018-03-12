@@ -25,10 +25,10 @@
 -(100 points) Write code in your Python file that will allow a user to submit duplicate data to a form, but will not save duplicate data (like the same user should not be able to submit the exact same tweet text for HW3).**
 
 
-routes
--'/' --> base.html
--'/names' --> name_example.html
--'/tweet' --> tweetInfo.html
--'/tweetResult' --> all_tweet.html
--'/cleanPlan' --> cleanschedule.html
--'/schedule' --> cleanResult.html
+**Routes**
+- '/' --> base.html
+- '/names' --> name_example.html
+- '/tweet' --> tweetInfo.html
+- '/tweetResult' --> all_tweet.html
+- '/cleanPlan' --> cleanschedule.html
+- '/schedule' --> cleanResult.html

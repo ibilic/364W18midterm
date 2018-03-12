@@ -10,6 +10,7 @@
 - At least one request to a REST API that is based on data submitted in a WTForm.**
 
 - At least one additional (not provided) WTForm that sends data with a GET request to a new page.
+
 **- At least one additional (not provided) WTForm that sends data with a POST request to the same page.
 - At least one custom validator for a field in a WTForm.
 - At least 2 additional model classes.
@@ -21,6 +22,13 @@
 - Include at least one use of url_for. (HINT: This could happen where you render a form...)
 - Have at least 3 view functions that are not included with the code we have provided. (But you may have more! Make sure you include ALL view functions in the app in the documentation and ALL pages in the app in the navigation links of base.html.)
 -(100 points) Include an additional model class (to make at least 4 total in the application) with at least 3 columns. Save data to it AND query data from it; use the data you query in a view-function, and as a result of querying that data, something should show up in a view. (The data itself should show up, OR the result of a request made with the data should show up.)
--(100 points) Write code in your Python file that will allow a user to submit duplicate data to a form, but will not save duplicate data (like the same user should not be able to submit the exact same tweet text for HW3).
+-(100 points) Write code in your Python file that will allow a user to submit duplicate data to a form, but will not save duplicate data (like the same user should not be able to submit the exact same tweet text for HW3).**
 
-**
+
+routes
+-'/' --> base.html
+-'/names' --> name_example.html
+-'/tweet' --> tweetInfo.html
+-'/tweetResult' --> all_tweet.html
+-'/cleanPlan' --> cleanschedule.html
+-'/schedule' --> cleanResult.html
